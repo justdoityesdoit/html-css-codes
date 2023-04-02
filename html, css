@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      /* Styling for the header */
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      /* Styling for the navigation bar */
+      nav {
+        background-color: #444;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      /* Styling for the links in the navigation bar */
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      /* Styling for the main content area */
+      main {
+        padding: 20px;
+      }
+      
+      /* Styling for the footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    
+    <!-- Navigation section -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    
+    <!-- Main content section -->
+    <main>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et nunc vitae urna tincidunt venenatis nec vel nibh. Integer vitae justo a libero efficitur egestas quis nec nulla. Proin porta vel tellus id tempor. Praesent bibendum dui a erat ullamcorper iaculis. Fusce a faucibus sem, vel ultricies ex. Aenean sollicitudin nibh eu urna venenatis, quis vehicula tortor aliquet. Nam auctor suscipit mi, vitae interdum massa efficitur id.</p>
+      
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
